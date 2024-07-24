@@ -4,7 +4,6 @@ FROM ubuntu:20.04
 # Install necessary dependencies
 RUN apt-get update && apt-get install -y \
     curl \
-    chmod \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
